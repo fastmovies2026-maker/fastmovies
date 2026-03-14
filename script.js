@@ -10,18 +10,21 @@ const id = parametros.get("id");
 
 const video = peliculas[id];
 
-if(video){
-
 const player = document.getElementById("player");
 
-player.src = "https://drive.google.com/file/d/" + video + "/preview";
+const boton = document.getElementById("playButton");
 
-setTimeout(() => {
+boton.addEventListener("click", function(){
+
+player.src =
+"https://drive.google.com/file/d/" + video + "/preview";
 
 if (player.requestFullscreen) {
+
 player.requestFullscreen();
-}
-
-}, 2000);
 
 }
+
+boton.style.display = "none";
+
+});
