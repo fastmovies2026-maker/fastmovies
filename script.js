@@ -12,7 +12,16 @@ const video = peliculas[id];
 
 if(video){
 
-document.getElementById("player").src =
-"https://drive.google.com/file/d/" + video + "/preview";
+const player = document.getElementById("player");
+
+player.src = "https://drive.google.com/file/d/" + video + "/preview";
+
+setTimeout(() => {
+
+if (player.requestFullscreen) {
+player.requestFullscreen();
+}
+
+}, 2000);
 
 }
