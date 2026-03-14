@@ -48,6 +48,8 @@ font-size:24px;
 border-radius:10px;
 cursor:pointer;
 
+z-index:10;
+
 }
 
 footer{
