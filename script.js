@@ -1,9 +1,8 @@
-alert("script cargado");
-const peliculas = {
-  1001: "1vJfbFCHQn_hZoGm2OymWkGeJburnaE0S"
-};
-
 function verPelicula() {
+
+  const peliculas = {
+    1001: "1vJfbFCHQn_hZoGm2OymWkGeJburnaE0S"
+  };
 
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id");
