@@ -1,3 +1,4 @@
+alert("script cargado");
 const peliculas = {
   1001: "1vJfbFCHQn_hZoGm2OymWkGeJburnaE0S"
 };
