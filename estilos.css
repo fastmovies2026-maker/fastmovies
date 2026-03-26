@@ -1,32 +1,15 @@
-body {
-  background-color: black;
-  color: white;
-  font-family: Arial;
-  margin: 0;
-}
-
-header {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  font-size: 24px;
-}
-
-.video-container {
-  width: 100%;
-}
-
-.boton-container {
-  text-align: center;
-  margin: 20px;
+pantalla-inicio {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .boton-rojo {
   background-color: red;
   color: white;
-  padding: 15px 30px;
-  font-size: 18px;
+  padding: 20px 40px;
+  font-size: 22px;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
 }
