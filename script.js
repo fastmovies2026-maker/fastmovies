@@ -1,11 +1,8 @@
 const peliculas = {
-
-1001: "1vJfbFCHQn_hZoGm2OymWkGeJburnaE0S"
-1002: "1EJuOGaZgkROv_a4YgKgSGdz7e29_bs8H"
-
+  1001: "1vJfbFCHQn_hZoGm2OymWkGeJburnaE0S"
 };
 
-unction verPelicula() {
+function verPelicula() {
 
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id");
@@ -15,8 +12,10 @@ unction verPelicula() {
     const videoID = peliculas[id];
 
     document.getElementById("player").src =
-    "https://drive.google.com/file/d/" + videoID + "/preview";
+      "https://drive.google.com/file/d/" + videoID + "/preview";
 
+  } else {
+    alert("Película no encontrada");
   }
 
 }
