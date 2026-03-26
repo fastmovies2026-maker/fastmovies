@@ -10,13 +10,14 @@ function verPelicula() {
 
   if (peliculas[id]) {
 
+    document.getElementById("inicio").style.display = "none";
+    document.getElementById("video").style.display = "block";
+
     const videoID = peliculas[id];
 
     document.getElementById("player").src =
       "https://drive.google.com/file/d/" + videoID + "/preview";
 
-  } else {
-    alert("Película no encontrada");
   }
 
 }
