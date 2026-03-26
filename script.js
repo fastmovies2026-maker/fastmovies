@@ -1,8 +1,9 @@
-function verPelicula() {
+const peliculas = {
+  1001: "1vJfbFCHQn_hZoGm2OymWkGeJburnaE0S",
+  1002: "ID_DE_TU_SEGUNDA_PELICULA"
+};
 
-  const peliculas = {
-    1001: "1vJfbFCHQn_hZoGm2OymWkGeJburnaE0S"
-  };
+function verPelicula() {
 
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id");
