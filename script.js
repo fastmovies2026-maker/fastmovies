@@ -5,27 +5,18 @@ const peliculas = {
 
 };
 
-const parametros = new URLSearchParams(window.location.search);
+unction verPelicula() {
 
-const id = parametros.get("id");
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get("id");
 
-const video = peliculas[id];
+  if (peliculas[id]) {
 
-const player = document.getElementById("player");
+    const videoID = peliculas[id];
 
-const boton = document.getElementById("playButton");
+    document.getElementById("player").src =
+    "https://drive.google.com/file/d/" + videoID + "/preview";
 
-boton.addEventListener("click", function(){
-
-player.src =
-"https://drive.google.com/file/d/" + video + "/preview";
-
-if (player.requestFullscreen) {
-
-player.requestFullscreen();
+  }
 
 }
-
-boton.style.display = "none";
-
-});
