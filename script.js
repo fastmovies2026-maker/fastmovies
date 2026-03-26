@@ -1,7 +1,7 @@
 const peliculas = {
 
 1001: "1vJfbFCHQn_hZoGm2OymWkGeJburnaE0S"
-1002: "1EJuOGaZgkROv_a4YgKgSGdz7e29_bs8H"  
+1002: "1EJuOGaZgkROv_a4YgKgSGdz7e29_bs8H"
 
 };
 
