@@ -18,8 +18,6 @@ function verPelicula() {
     const videoID = peliculas[id];
 
     document.getElementById("player").src =
-      "https://drive.google.com/file/d/" + videoID + "/preview";
-
+      "https://drive.google.com/file/d/" + videoID + "/preview?autoplay=1";
   }
-
 }
