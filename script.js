@@ -1,7 +1,7 @@
 const peliculas = {
   1001: "1vJfbFCHQn_hZoGm2OymWkGeJburnaE0S",
-  1002: "1EJuOGaZgkROv_a4YgKgSGdz7e29_bs8H"
-  1003: "1l6EPg6goP80fgryYucoFYxL-_vW2oIcs"
+  1002: "1EJuOGaZgkROv_a4YgKgSGdz7e29_bs8H",
+  1003: "1l6EPg6goP80fgryYucoFYxL-_vW2oIcs",
   1004: "1DSN20MlensUmmlNAXEMOvb23W2QSQXtg"
 };
 
