@@ -21,3 +21,9 @@ function verPelicula() {
       "https://drive.google.com/file/d/" + videoID + "/preview?autoplay=1";
   }
 }
+
+function girarPantalla() {
+  if (screen.orientation && screen.orientation.lock) {
+    screen.orientation.lock('landscape');
+  }
+}
