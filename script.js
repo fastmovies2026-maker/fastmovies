@@ -1,5 +1,5 @@
 const peliculas = {
-  avatar: {
+  terminator: {
     titulo: "Terminator",
     anio: "1984",
     genero: "Ciencia ficción",
