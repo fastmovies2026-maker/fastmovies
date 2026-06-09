@@ -1,10 +1,10 @@
 const peliculas = {
   avatar: {
-    titulo: "Avatar",
-    anio: "2009",
+    titulo: "Terminator",
+    anio: "1984",
     genero: "Ciencia ficción",
-    sinopsis: "Un exmarine llega a Pandora y se ve envuelto en un conflicto entre humanos y los Na'vi.",
-    poster: "img/avatar.jpg",
+    sinopsis: "Los Ángeles, año 2029. Las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor, un hombre que nació en los años ochenta. Para acabar con la rebelión, las máquinas deciden enviar al pasado a un robot -Terminator- cuya misión será eliminar a Sarah Connor, la madre de John, e impedir así su nacimiento",
+    poster: "img/",
     drive: "TU_ID_DE_GOOGLE_DRIVE"
   }
 };
