@@ -1,29 +1,41 @@
 const peliculas = {
-  1001: "1vJfbFCHQn_hZoGm2OymWkGeJburnaE0S",
-  1002: "1EJuOGaZgkROv_a4YgKgSGdz7e29_bs8H",
-  1003: "1l6EPg6goP80fgryYucoFYxL-_vW2oIcs",
-  1004: "1DSN20MlensUmmlNAXEMOvb23W2QSQXtg"
+  avatar: {
+    titulo: "Avatar",
+    anio: "2009",
+    genero: "Ciencia ficción",
+    sinopsis: "Un exmarine llega a Pandora y se ve envuelto en un conflicto entre humanos y los Na'vi.",
+    poster: "img/avatar.jpg",
+    drive: "TU_ID_DE_GOOGLE_DRIVE"
+  }
 };
 
-function verPelicula() {
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
 
-  const params = new URLSearchParams(window.location.search);
-  const id = params.get("id");
+const pelicula = peliculas[id];
 
-  if (peliculas[id]) {
+if(pelicula){
 
-    document.getElementById("inicio").style.display = "none";
-    document.getElementById("video").style.display = "block";
+  document.getElementById("titulo").textContent =
+    pelicula.titulo;
 
-    const videoID = peliculas[id];
+  document.getElementById("info").textContent =
+    pelicula.anio + " • " + pelicula.genero;
 
-    document.getElementById("player").src =
-      "https://drive.google.com/file/d/" + videoID + "/preview?autoplay=1";
-  }
+  document.getElementById("sinopsis").textContent =
+    pelicula.sinopsis;
+
+  document.getElementById("poster").src =
+    pelicula.poster;
 }
 
-function girarPantalla() {
-  if (screen.orientation && screen.orientation.lock) {
-    screen.orientation.lock('landscape');
-  }
+function verPelicula(){
+
+  document.getElementById("video").style.display =
+    "block";
+
+  document.getElementById("player").src =
+    "https://drive.google.com/file/d/" +
+    pelicula.drive +
+    "/preview?autoplay=1";
 }
