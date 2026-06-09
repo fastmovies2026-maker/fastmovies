@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FastMovies</title>
-<link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FastMovies</title>
+
+  <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
 
-<header>
-FastMovies
-</header>
+  <div id="contenedor">
 
-<div id="inicio" class="pantalla-inicio">
+    <img id="poster" class="poster" src="" alt="Poster">
 
-<button class="boton-rojo" onclick="verPelicula(); girarPantalla();">
-Ver película
-</button>
-<div id="video" class="video-container">
-<iframe id="player" allowfullscreen></iframe>
-</div>
+    <h1 id="titulo"></h1>
 
-<footer>
-<p>Consigue más películas en llavero</p>
-<p>WhatsApp: +57 3127542172</p>
-</footer>
+    <p id="info"></p>
 
-<script src="script.js"></script>
+    <p id="sinopsis"></p>
+
+    <button class="boton-rojo" onclick="verPelicula()">
+      Ver película
+    </button>
+
+    <div id="video" class="video-container">
+      <iframe id="player" allowfullscreen></iframe>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
