@@ -10,7 +10,7 @@ const peliculas = {
   }
 
   akira: {
-    titulo: "007skayfall",
+    titulo: "skyfall",
     anio: "2012",
     genero: "Accion",
     sinopsis: " la lealtad de James Bond hacia M se pone a prueba cuando secretos del pasado de ella vuelven para atormentarla. Tras el ataque a la sede del MI6, el agente 007 debe localizar y destruir a Silva, un peligroso ciberterrorista y exagente que busca venganza.",
