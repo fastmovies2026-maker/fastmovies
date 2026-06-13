@@ -7,7 +7,7 @@ const peliculas = {
     sinopsis: "Los Ángeles, año 2029. Las máquinas dominan el mundo. Los rebeldes que luchan contra ellas envían a un guerrero al pasado para proteger a Sarah Connor y asegurar el futuro de la humanidad.",
     poster: "img/terminator.jpg",
     drive: "1MscfZqRAVWdEYEnRFyqGx7v6ym2PS-WV"
-  }
+  },
 
   akira: {
     titulo: "skyfall",
