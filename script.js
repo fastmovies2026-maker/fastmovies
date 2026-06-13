@@ -9,7 +9,7 @@ const peliculas = {
     drive: "1MscfZqRAVWdEYEnRFyqGx7v6ym2PS-WV"
   },
 
-  akira: {
+  skyfall: {
     titulo: "skyfall",
     anio: "2012",
     genero: "Accion",
