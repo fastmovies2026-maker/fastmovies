@@ -16,7 +16,15 @@ const peliculas = {
     sinopsis: " la lealtad de James Bond hacia M se pone a prueba cuando secretos del pasado de ella vuelven para atormentarla. Tras el ataque a la sede del MI6, el agente 007 debe localizar y destruir a Silva, un peligroso ciberterrorista y exagente que busca venganza.",
     poster: "img/skyfall.jpg",
     drive: "1h-rD3VRfI2sxLtYKD35to6RSZJ9SCYB9"
-  }
+  },
+  akira: {
+    titulo: "Akira",
+    anio: "1988",
+    genero: "Anime / Ciencia ficción",
+    sinopsis: "En una Tokio futurista, un joven desarrolla poderes psíquicos que amenazan con desencadenar una nueva catástrofe.",
+    poster: "img/akira.jpg",
+    drive: "1JW12cBSkXKYzYZypRL_wkYaWyp7yX-Kf"
+  },
 
   // Agrega más películas aquí
   /*
