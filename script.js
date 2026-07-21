@@ -49,6 +49,14 @@ const peliculas = {
     poster: "img/thor.jpg",
     drive: "1Oi3Z3oMuIxZd5DcFe4Ev0w5eC-uKq3TY"
   },
+  mulan: {
+    titulo: "mulán",
+    anio: "1998",
+    genero: "Animación",
+    sinopsis: "Mulán se alista en el ejército imperial para evitar que su anciano y enfermo padre sea reclutado y enviado a la guerra contra los hunos. Haciéndose pasar por el soldado Ping, se somete a un duro entrenamiento y, con la ayuda de Mushu, se convierte en una de las mayores heroínas de China",
+    poster: "img/mulan.jpg",
+    drive: "1a6bFNgppnWkCfFnB3x8WJIzjYKsNcqlT"
+  },
 
   // Agrega más películas aquí
   /*
