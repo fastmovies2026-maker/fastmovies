@@ -33,6 +33,14 @@ const peliculas = {
     poster: "img/volveralfuturo.jpg",
     drive: "1fqFCLk1fIFJVkkymJ7_wipDkLyjXvh7q"
   },
+  volveralfuturo1985: {
+    titulo: "volver al futuro",
+    anio: "1985",
+    genero: "Aventura / Ciencia ficción",
+    sinopsis: "sigue al adolescente Marty McFly, quien viaja accidentalmente de 1985 a 1955 en un vehículo DeLorean modificado por su amigo, el excéntrico científico "Doc" Brown. Al interferir con el primer encuentro de sus padres, Marty debe lograr que se enamoren antes de desaparecer de la existencia y encontrar la manera de regresar a su época.",
+    poster: "img/volveralfuturo.jpg",
+    drive: "1RgSCNX_Oz4b0j2DnnMMFB6bv8a8-mRCq"
+  },
 
   // Agrega más películas aquí
   /*
