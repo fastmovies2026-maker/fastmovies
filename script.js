@@ -41,6 +41,14 @@ const peliculas = {
     poster: "img/volveralfuturo.jpg",
     drive: "1RgSCNX_Oz4b0j2DnnMMFB6bv8a8-mRCq"
   },
+  thor: {
+    titulo: "thor",
+    anio: "2011",
+    genero: "accion / Ciencia ficción",
+    sinopsis: "Thor, el príncipe heredero de Asgard, es desterrado a la Tierra por su padre Odín tras reavivar imprudentemente una antigua guerra. Despojado de su martillo Mjölnir y obligado a vivir como un humano, Thor aprende el verdadero significado de la humildad mientras se enamora de la científica Jane Foster",
+    poster: "img/thor.jpg",
+    drive: "1Oi3Z3oMuIxZd5DcFe4Ev0w5eC-uKq3TY"
+  },
 
   // Agrega más películas aquí
   /*
